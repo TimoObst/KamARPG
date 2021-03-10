@@ -1,0 +1,16 @@
+{
+	"FileVersion": 3,
+	"EngineAssociation": "{90469D62-493F-8E76-5287-0190CF95B93C}",
+	"Category": "",
+	"Description": "",
+	"Modules": [
+		{
+			"Name": "KamARPG",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"AdditionalDependencies": [
+				"Engine"
+			]
+		}
+	]
+}
