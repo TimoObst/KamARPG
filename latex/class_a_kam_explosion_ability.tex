@@ -1,0 +1,62 @@
+\hypertarget{class_a_kam_explosion_ability}{}\doxysection{A\+Kam\+Explosion\+Ability Class Reference}
+\label{class_a_kam_explosion_ability}\index{AKamExplosionAbility@{AKamExplosionAbility}}
+Inheritance diagram for A\+Kam\+Explosion\+Ability\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=4.000000cm]{class_a_kam_explosion_ability}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_a_kam_explosion_ability_adad9e083183de97e3d189391e856b60c}\label{class_a_kam_explosion_ability_adad9e083183de97e3d189391e856b60c}} 
+virtual void {\bfseries Begin\+Play} () override
+\item 
+\mbox{\Hypertarget{class_a_kam_explosion_ability_a0a6c7ba224e0f41b5df8fdf9a43288e3}\label{class_a_kam_explosion_ability_a0a6c7ba224e0f41b5df8fdf9a43288e3}} 
+void {\bfseries Override\+Variables} (float new\+Start\+Size, float new\+End\+Size, float new\+Life\+Span)
+\item 
+\mbox{\Hypertarget{class_a_kam_explosion_ability_a9225bb33f281588027810b5c1fb42be0}\label{class_a_kam_explosion_ability_a9225bb33f281588027810b5c1fb42be0}} 
+void \mbox{\hyperlink{class_a_kam_explosion_ability_a9225bb33f281588027810b5c1fb42be0}{On\+Max\+Size}} ()
+\begin{DoxyCompactList}\small\item\em Blueprint Implementable Events ///. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_a_kam_explosion_ability_a4813228196eff98b50c0d370cb6b9466}\label{class_a_kam_explosion_ability_a4813228196eff98b50c0d370cb6b9466}} 
+void \mbox{\hyperlink{class_a_kam_explosion_ability_a4813228196eff98b50c0d370cb6b9466}{On\+Sphere\+Begin\+Overlap}} (U\+Primitive\+Component $\ast$Overlapped\+Comp, A\+Actor $\ast$Other\+Actor, U\+Primitive\+Component $\ast$Other\+Comp, int32 Other\+Body\+Index, bool b\+From\+Sweep, const F\+Hit\+Result \&Sweep\+Result)
+\begin{DoxyCompactList}\small\item\em Collision Detection ///. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_a_kam_explosion_ability_a6ea34f57162e27d88c672a54e9d57afb}\label{class_a_kam_explosion_ability_a6ea34f57162e27d88c672a54e9d57afb}} 
+void {\bfseries Initialize} ()
+\item 
+\mbox{\Hypertarget{class_a_kam_explosion_ability_a25f60c2625bb8a096d6a2a86baf985fc}\label{class_a_kam_explosion_ability_a25f60c2625bb8a096d6a2a86baf985fc}} 
+virtual void {\bfseries Update} (float Delta\+Time) override
+\item 
+\mbox{\Hypertarget{class_a_kam_explosion_ability_a74d5ba5b2644a0e2ffb68c1b12bb508f}\label{class_a_kam_explosion_ability_a74d5ba5b2644a0e2ffb68c1b12bb508f}} 
+virtual void {\bfseries Hit\+Handler} (U\+Kam\+Unit $\ast$target) override
+\end{DoxyCompactItemize}
+\doxysubsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_a_kam_explosion_ability_aa612320c11516c723566fbc047bd2143}\label{class_a_kam_explosion_ability_aa612320c11516c723566fbc047bd2143}} 
+float \mbox{\hyperlink{class_a_kam_explosion_ability_aa612320c11516c723566fbc047bd2143}{life\+Time}} = 0
+\begin{DoxyCompactList}\small\item\em Blueprint Read Only ///. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_a_kam_explosion_ability_a38a9efdf7d467bbfcf69eb677dabaaa3}\label{class_a_kam_explosion_ability_a38a9efdf7d467bbfcf69eb677dabaaa3}} 
+U\+Sphere\+Component $\ast$ \mbox{\hyperlink{class_a_kam_explosion_ability_a38a9efdf7d467bbfcf69eb677dabaaa3}{Sphere\+Collision}} = nullptr
+\begin{DoxyCompactList}\small\item\em Blueprint Read Write ///. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_a_kam_explosion_ability_a72e4e78919bbdbb0cef02cf4eb948d82}\label{class_a_kam_explosion_ability_a72e4e78919bbdbb0cef02cf4eb948d82}} 
+float {\bfseries Start\+Size} = 1
+\item 
+\mbox{\Hypertarget{class_a_kam_explosion_ability_a5d770a3111c4947ea6a86eac955f2d68}\label{class_a_kam_explosion_ability_a5d770a3111c4947ea6a86eac955f2d68}} 
+float {\bfseries End\+Size} = 2
+\item 
+\mbox{\Hypertarget{class_a_kam_explosion_ability_a6847e7dec1e7e6cc5e960a5c5a4a75db}\label{class_a_kam_explosion_ability_a6847e7dec1e7e6cc5e960a5c5a4a75db}} 
+F\+Vector {\bfseries Start\+Position\+Offset} = F\+Vector\+::\+Zero\+Vector
+\item 
+\mbox{\Hypertarget{class_a_kam_explosion_ability_a9239196c6e827a5364ebde3668635060}\label{class_a_kam_explosion_ability_a9239196c6e827a5364ebde3668635060}} 
+float {\bfseries Duration} = .\+5f
+\end{DoxyCompactItemize}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+Source/\+Kam\+A\+R\+P\+G/Kam\+Explosion\+Ability.\+h\item 
+Source/\+Kam\+A\+R\+P\+G/Kam\+Explosion\+Ability.\+cpp\end{DoxyCompactItemize}

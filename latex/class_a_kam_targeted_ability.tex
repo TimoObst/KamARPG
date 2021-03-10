@@ -1,0 +1,74 @@
+\hypertarget{class_a_kam_targeted_ability}{}\doxysection{A\+Kam\+Targeted\+Ability Class Reference}
+\label{class_a_kam_targeted_ability}\index{AKamTargetedAbility@{AKamTargetedAbility}}
+Inheritance diagram for A\+Kam\+Targeted\+Ability\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=4.000000cm]{class_a_kam_targeted_ability}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_a_kam_targeted_ability_a27badd1360555ec78dc71be3f9d542ad}\label{class_a_kam_targeted_ability_a27badd1360555ec78dc71be3f9d542ad}} 
+void {\bfseries Begin\+Play} () override
+\item 
+\mbox{\Hypertarget{class_a_kam_targeted_ability_ae2b72785c73a71a9125b3c7a5a90e6ae}\label{class_a_kam_targeted_ability_ae2b72785c73a71a9125b3c7a5a90e6ae}} 
+void {\bfseries Update} (float Delta\+Time) override
+\item 
+\mbox{\Hypertarget{class_a_kam_targeted_ability_aefb4884125f43fcc8f59cdb16f6a1877}\label{class_a_kam_targeted_ability_aefb4884125f43fcc8f59cdb16f6a1877}} 
+void {\bfseries Override\+Values} (E\+Kam\+Target\+Type new\+Type, float new\+Max\+Range, float new\+Angle)
+\item 
+\mbox{\Hypertarget{class_a_kam_targeted_ability_a4278cdc20c41f90512c69ff475198f85}\label{class_a_kam_targeted_ability_a4278cdc20c41f90512c69ff475198f85}} 
+void \mbox{\hyperlink{class_a_kam_targeted_ability_a4278cdc20c41f90512c69ff475198f85}{Set\+Target}} (U\+Kam\+Unit $\ast$unit)
+\begin{DoxyCompactList}\small\item\em Blueprint Setters ///. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_a_kam_targeted_ability_a170cdc427e7c1a18b1d11b68eefb9399}\label{class_a_kam_targeted_ability_a170cdc427e7c1a18b1d11b68eefb9399}} 
+U\+Kam\+Unit $\ast$ \mbox{\hyperlink{class_a_kam_targeted_ability_a170cdc427e7c1a18b1d11b68eefb9399}{Get\+Target}} ()
+\begin{DoxyCompactList}\small\item\em Blueprint Getters ///. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_a_kam_targeted_ability_abe4b22653d4c6a0b19186407c80b7867}\label{class_a_kam_targeted_ability_abe4b22653d4c6a0b19186407c80b7867}} 
+bool \mbox{\hyperlink{class_a_kam_targeted_ability_abe4b22653d4c6a0b19186407c80b7867}{Find\+Target}} ()
+\begin{DoxyCompactList}\small\item\em Find Target Functions ///. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_a_kam_targeted_ability_ad4d3206d9c3f0de4aa326b9a5c9ae125}\label{class_a_kam_targeted_ability_ad4d3206d9c3f0de4aa326b9a5c9ae125}} 
+T\+Array$<$ U\+Kam\+Unit $\ast$ $>$ {\bfseries Get\+All\+Units\+In\+Range} ()
+\item 
+\mbox{\Hypertarget{class_a_kam_targeted_ability_a1d1122a1aa9340275b23e59bc4c90d62}\label{class_a_kam_targeted_ability_a1d1122a1aa9340275b23e59bc4c90d62}} 
+U\+Kam\+Unit $\ast$ {\bfseries Get\+Random\+Unit} ()
+\item 
+\mbox{\Hypertarget{class_a_kam_targeted_ability_ae2e7c549635607e699c14e318d7c4d22}\label{class_a_kam_targeted_ability_ae2e7c549635607e699c14e318d7c4d22}} 
+U\+Kam\+Unit $\ast$ {\bfseries Get\+Closest\+Unit} ()
+\item 
+\mbox{\Hypertarget{class_a_kam_targeted_ability_a0a53c9d8750f12a1043127f3b8c23050}\label{class_a_kam_targeted_ability_a0a53c9d8750f12a1043127f3b8c23050}} 
+U\+Kam\+Unit $\ast$ {\bfseries Get\+Closest\+Forward\+Unit} ()
+\item 
+\mbox{\Hypertarget{class_a_kam_targeted_ability_a772a15f0f83776b6eca34725e5ab3267}\label{class_a_kam_targeted_ability_a772a15f0f83776b6eca34725e5ab3267}} 
+void \mbox{\hyperlink{class_a_kam_targeted_ability_a772a15f0f83776b6eca34725e5ab3267}{Hit\+Handler}} (U\+Kam\+Unit $\ast$unit\+To\+Hit)
+\begin{DoxyCompactList}\small\item\em Damage ///. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_a_kam_targeted_ability_aac8a13b4355a3e296c5d058c411c1ad2}\label{class_a_kam_targeted_ability_aac8a13b4355a3e296c5d058c411c1ad2}} 
+void \mbox{\hyperlink{class_a_kam_targeted_ability_aac8a13b4355a3e296c5d058c411c1ad2}{On\+Target\+Found}} (U\+Kam\+Unit $\ast$target)
+\begin{DoxyCompactList}\small\item\em Implementable Blueprint Events ///. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_a_kam_targeted_ability_a6f92e030356eee0e358573e4d8dd457d}\label{class_a_kam_targeted_ability_a6f92e030356eee0e358573e4d8dd457d}} 
+void {\bfseries On\+Target\+Not\+Found} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_a_kam_targeted_ability_a3d464032358ce5eed8c8ac56bba61bc7}\label{class_a_kam_targeted_ability_a3d464032358ce5eed8c8ac56bba61bc7}} 
+U\+Kam\+Unit $\ast$ \mbox{\hyperlink{class_a_kam_targeted_ability_a3d464032358ce5eed8c8ac56bba61bc7}{Targeted\+Unit}} = nullptr
+\begin{DoxyCompactList}\small\item\em Blueprint Read Only ///. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_a_kam_targeted_ability_a9dc70e4064d16ad0ccd14630d854176e}\label{class_a_kam_targeted_ability_a9dc70e4064d16ad0ccd14630d854176e}} 
+E\+Kam\+Target\+Type \mbox{\hyperlink{class_a_kam_targeted_ability_a9dc70e4064d16ad0ccd14630d854176e}{Target\+Type}} = E\+Kam\+Target\+Type\+::\+T\+T\+\_\+\+Caster
+\begin{DoxyCompactList}\small\item\em Blueprint Read Write ///. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_a_kam_targeted_ability_a90d11f1f5d1c3fe5a9331c7a29df9d1b}\label{class_a_kam_targeted_ability_a90d11f1f5d1c3fe5a9331c7a29df9d1b}} 
+float {\bfseries Max\+Range} = 500.f
+\item 
+\mbox{\Hypertarget{class_a_kam_targeted_ability_ae778c5bcfe630a8e6b68cfd0ede7f5fe}\label{class_a_kam_targeted_ability_ae778c5bcfe630a8e6b68cfd0ede7f5fe}} 
+float {\bfseries Angle} = 30.\+0f
+\end{DoxyCompactItemize}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+Source/\+Kam\+A\+R\+P\+G/Kam\+Targeted\+Ability.\+h\item 
+Source/\+Kam\+A\+R\+P\+G/Kam\+Targeted\+Ability.\+cpp\end{DoxyCompactItemize}

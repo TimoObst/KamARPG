@@ -1,0 +1,106 @@
+\hypertarget{class_a_kam_chainable}{}\doxysection{A\+Kam\+Chainable Class Reference}
+\label{class_a_kam_chainable}\index{AKamChainable@{AKamChainable}}
+
+
+Abstract Parent for Chainable Objects.  
+
+
+
+
+{\ttfamily \#include $<$Kam\+Chainable.\+h$>$}
+
+Inheritance diagram for A\+Kam\+Chainable\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=3.943662cm]{class_a_kam_chainable}
+\end{center}
+\end{figure}
+\doxysubsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_a_kam_chainable_a76f44a73617f83ba7f0a801b9421cd40}\label{class_a_kam_chainable_a76f44a73617f83ba7f0a801b9421cd40}} 
+\mbox{\hyperlink{class_u_kam_unit_snapshot}{U\+Kam\+Unit\+Snapshot}} $\ast$ \mbox{\hyperlink{class_a_kam_chainable_a76f44a73617f83ba7f0a801b9421cd40}{Get\+Caster\+Snapshot}} ()
+\begin{DoxyCompactList}\small\item\em Get the Snapshot of the original caster. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_a_kam_chainable_a1cb5251c91cdacbefd7a297e0002a2fc}\label{class_a_kam_chainable_a1cb5251c91cdacbefd7a297e0002a2fc}} 
+U\+Kam\+Unit $\ast$ \mbox{\hyperlink{class_a_kam_chainable_a1cb5251c91cdacbefd7a297e0002a2fc}{Get\+Caster\+Unit}} ()
+\begin{DoxyCompactList}\small\item\em Get the Unit reference to the original caster. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_a_kam_chainable_a2bde68ff2e772450e2c157fe122e2327}\label{class_a_kam_chainable_a2bde68ff2e772450e2c157fe122e2327}} 
+\mbox{\hyperlink{class_a_kam_base_ability}{A\+Kam\+Base\+Ability}} $\ast$ \mbox{\hyperlink{class_a_kam_chainable_a2bde68ff2e772450e2c157fe122e2327}{Chain\+Ability}} (T\+Subclass\+Of$<$ \mbox{\hyperlink{class_a_kam_base_ability}{A\+Kam\+Base\+Ability}} $>$ to\+Chain)
+\begin{DoxyCompactList}\small\item\em Chain Ability from Actor Location. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_a_kam_chainable_a0cc16dbad26914c015eabea4a095a800}\label{class_a_kam_chainable_a0cc16dbad26914c015eabea4a095a800}} 
+\mbox{\hyperlink{class_a_kam_base_ability}{A\+Kam\+Base\+Ability}} $\ast$ \mbox{\hyperlink{class_a_kam_chainable_a0cc16dbad26914c015eabea4a095a800}{Chain\+Ability\+From\+Unit}} (T\+Subclass\+Of$<$ \mbox{\hyperlink{class_a_kam_base_ability}{A\+Kam\+Base\+Ability}} $>$ to\+Chain, U\+Kam\+Unit $\ast$unit)
+\begin{DoxyCompactList}\small\item\em Chain Ability from Unit Location. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_a_kam_chainable_a6427f08a7da8a7899560f43b0dd9b1ab}\label{class_a_kam_chainable_a6427f08a7da8a7899560f43b0dd9b1ab}} 
+\mbox{\hyperlink{class_a_kam_projectile_ability}{A\+Kam\+Projectile\+Ability}} $\ast$ \mbox{\hyperlink{class_a_kam_chainable_a6427f08a7da8a7899560f43b0dd9b1ab}{Chain\+Projectile}} (T\+Subclass\+Of$<$ \mbox{\hyperlink{class_a_kam_projectile_ability}{A\+Kam\+Projectile\+Ability}} $>$ to\+Chain, float new\+Size, float new\+Angle, float new\+Speed, float new\+Max\+Distance)
+\begin{DoxyCompactList}\small\item\em Chain Projectile from Actor Location with Overridable Variables. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_a_kam_chainable_a6bce4acaab9341c99f657ef0fec97512}\label{class_a_kam_chainable_a6bce4acaab9341c99f657ef0fec97512}} 
+\mbox{\hyperlink{class_a_kam_projectile_ability}{A\+Kam\+Projectile\+Ability}} $\ast$ \mbox{\hyperlink{class_a_kam_chainable_a6bce4acaab9341c99f657ef0fec97512}{Chain\+Projectile\+From\+Unit}} (T\+Subclass\+Of$<$ \mbox{\hyperlink{class_a_kam_projectile_ability}{A\+Kam\+Projectile\+Ability}} $>$ to\+Chain, U\+Kam\+Unit $\ast$unit, float new\+Size, float new\+Angle, float new\+Speed, float new\+Max\+Distance)
+\begin{DoxyCompactList}\small\item\em Chain Projectile from Unit Location with Overridable Variables. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_a_kam_chainable_a636e0ff988c890238511995120aa1449}\label{class_a_kam_chainable_a636e0ff988c890238511995120aa1449}} 
+\mbox{\hyperlink{class_a_kam_explosion_ability}{A\+Kam\+Explosion\+Ability}} $\ast$ \mbox{\hyperlink{class_a_kam_chainable_a636e0ff988c890238511995120aa1449}{Chain\+Explosion}} (T\+Subclass\+Of$<$ \mbox{\hyperlink{class_a_kam_explosion_ability}{A\+Kam\+Explosion\+Ability}} $>$ to\+Chain, float start\+Size, float end\+Size, float life\+Span)
+\begin{DoxyCompactList}\small\item\em Chain Explosion from Actor Location with Overridable Variables. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_a_kam_chainable_aa565519803fec1d7ca35cfd8ff2f274b}\label{class_a_kam_chainable_aa565519803fec1d7ca35cfd8ff2f274b}} 
+\mbox{\hyperlink{class_a_kam_explosion_ability}{A\+Kam\+Explosion\+Ability}} $\ast$ \mbox{\hyperlink{class_a_kam_chainable_aa565519803fec1d7ca35cfd8ff2f274b}{Chain\+Explosion\+From\+Unit}} (T\+Subclass\+Of$<$ \mbox{\hyperlink{class_a_kam_explosion_ability}{A\+Kam\+Explosion\+Ability}} $>$ to\+Chain, U\+Kam\+Unit $\ast$unit, float start\+Size, float end\+Size, float life\+Span)
+\begin{DoxyCompactList}\small\item\em Chain Explosion from Unit Location with Overridable Variables. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_a_kam_chainable_afb89e35b1ff04336f73cb9dc657404a3}\label{class_a_kam_chainable_afb89e35b1ff04336f73cb9dc657404a3}} 
+\mbox{\hyperlink{class_a_kam_area_ability}{A\+Kam\+Area\+Ability}} $\ast$ \mbox{\hyperlink{class_a_kam_chainable_afb89e35b1ff04336f73cb9dc657404a3}{Chain\+Area}} (T\+Subclass\+Of$<$ \mbox{\hyperlink{class_a_kam_area_ability}{A\+Kam\+Area\+Ability}} $>$ to\+Chain, float new\+Size, float new\+Duration, float new\+Tick\+Rate)
+\begin{DoxyCompactList}\small\item\em Chain Area from Actor Location with Overridable Variables. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_a_kam_chainable_a5ee11982503dc938f82b9fa8acff0274}\label{class_a_kam_chainable_a5ee11982503dc938f82b9fa8acff0274}} 
+\mbox{\hyperlink{class_a_kam_area_ability}{A\+Kam\+Area\+Ability}} $\ast$ \mbox{\hyperlink{class_a_kam_chainable_a5ee11982503dc938f82b9fa8acff0274}{Chain\+Area\+From\+Unit}} (T\+Subclass\+Of$<$ \mbox{\hyperlink{class_a_kam_area_ability}{A\+Kam\+Area\+Ability}} $>$ to\+Chain, U\+Kam\+Unit $\ast$unit, float new\+Size, float new\+Duration, float new\+Tick\+Rate)
+\begin{DoxyCompactList}\small\item\em Chain Area from Unit Location with Overridable Variables. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_a_kam_chainable_ac5479a57f4d40cf0e82102cf4e508070}\label{class_a_kam_chainable_ac5479a57f4d40cf0e82102cf4e508070}} 
+\mbox{\hyperlink{class_a_kam_targeted_ability}{A\+Kam\+Targeted\+Ability}} $\ast$ \mbox{\hyperlink{class_a_kam_chainable_ac5479a57f4d40cf0e82102cf4e508070}{Chain\+Targeted}} (T\+Subclass\+Of$<$ \mbox{\hyperlink{class_a_kam_targeted_ability}{A\+Kam\+Targeted\+Ability}} $>$ to\+Chain, E\+Kam\+Target\+Type target\+Type, float new\+Max\+Range, float new\+Angle)
+\begin{DoxyCompactList}\small\item\em Chain Targeted from Actor Location with Overridable Variables. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_a_kam_chainable_a2e0976073f16482d68de390eb3ff2605}\label{class_a_kam_chainable_a2e0976073f16482d68de390eb3ff2605}} 
+\mbox{\hyperlink{class_a_kam_targeted_ability}{A\+Kam\+Targeted\+Ability}} $\ast$ \mbox{\hyperlink{class_a_kam_chainable_a2e0976073f16482d68de390eb3ff2605}{Chain\+Targeted\+From\+Unit}} (T\+Subclass\+Of$<$ \mbox{\hyperlink{class_a_kam_targeted_ability}{A\+Kam\+Targeted\+Ability}} $>$ to\+Chain, U\+Kam\+Unit $\ast$from\+Unit, E\+Kam\+Target\+Type target\+Type, float new\+Max\+Range, float new\+Angle)
+\begin{DoxyCompactList}\small\item\em Chain Targeted from Unit Location with Overridable Variables. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_a_kam_chainable_ab97cdd38a277889c4b8273d9fd8de2b8}\label{class_a_kam_chainable_ab97cdd38a277889c4b8273d9fd8de2b8}} 
+\mbox{\hyperlink{class_a_kam_targeted_ability}{A\+Kam\+Targeted\+Ability}} $\ast$ \mbox{\hyperlink{class_a_kam_chainable_ab97cdd38a277889c4b8273d9fd8de2b8}{Chain\+Targeted\+Preset}} (T\+Subclass\+Of$<$ \mbox{\hyperlink{class_a_kam_targeted_ability}{A\+Kam\+Targeted\+Ability}} $>$ to\+Chain, U\+Kam\+Unit $\ast$target)
+\begin{DoxyCompactList}\small\item\em Chain Targeted with Preset Target Unit. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_a_kam_chainable_a6a94f7d72e812363e90941631315b305}\label{class_a_kam_chainable_a6a94f7d72e812363e90941631315b305}} 
+void \mbox{\hyperlink{class_a_kam_chainable_a6a94f7d72e812363e90941631315b305}{Spawn\+Emitter\+At\+Transform}} (U\+Particle\+System $\ast$particle, F\+Transform transform)
+\begin{DoxyCompactList}\small\item\em Spawn Emitter from Transform. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_a_kam_chainable_a28fa8b25ce9112de819cc1e7dd3ad7ce}\label{class_a_kam_chainable_a28fa8b25ce9112de819cc1e7dd3ad7ce}} 
+void \mbox{\hyperlink{class_a_kam_chainable_a28fa8b25ce9112de819cc1e7dd3ad7ce}{Spawn\+Emitter\+At\+Unit}} (U\+Particle\+System $\ast$particle, U\+Kam\+Unit $\ast$unit)
+\begin{DoxyCompactList}\small\item\em Spawn Emitter from Unit Transform. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_a_kam_chainable_a769a2db04450ff802dd69d0a3dc4f537}\label{class_a_kam_chainable_a769a2db04450ff802dd69d0a3dc4f537}} 
+void \mbox{\hyperlink{class_a_kam_chainable_a769a2db04450ff802dd69d0a3dc4f537}{Set\+Delay\+Destroy}} (bool to\+Delay)
+\begin{DoxyCompactList}\small\item\em Delay Destroy of Ability indefinitely. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_a_kam_chainable_a571b9e417c142dd20e54e481b017dcb4}\label{class_a_kam_chainable_a571b9e417c142dd20e54e481b017dcb4}} 
+void \mbox{\hyperlink{class_a_kam_chainable_a571b9e417c142dd20e54e481b017dcb4}{Delay\+Destroy\+By\+Seconds}} (float time)
+\begin{DoxyCompactList}\small\item\em Delay Destroy of Ability by seconds. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_a_kam_chainable_aa6b0cfa51121c531325fd511b3c7e2aa}\label{class_a_kam_chainable_aa6b0cfa51121c531325fd511b3c7e2aa}} 
+float \mbox{\hyperlink{class_a_kam_chainable_aa6b0cfa51121c531325fd511b3c7e2aa}{Crit\+Chance\+Calculations}} ()
+\begin{DoxyCompactList}\small\item\em Blueprint Implementable Function to calculate the crit chance. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_a_kam_chainable_a94f62d143b4a318355250bde0d2bdcf0}\label{class_a_kam_chainable_a94f62d143b4a318355250bde0d2bdcf0}} 
+void \mbox{\hyperlink{class_a_kam_chainable_a94f62d143b4a318355250bde0d2bdcf0}{On\+Crit}} (U\+Kam\+Unit $\ast$target)
+\begin{DoxyCompactList}\small\item\em Blueprint Event called when ability Crits. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_a_kam_chainable_a65ef30318f016bc0cd3b4836f088f513}\label{class_a_kam_chainable_a65ef30318f016bc0cd3b4836f088f513}} 
+void \mbox{\hyperlink{class_a_kam_chainable_a65ef30318f016bc0cd3b4836f088f513}{On\+Kill}} (U\+Kam\+Unit $\ast$target)
+\begin{DoxyCompactList}\small\item\em Blueprint Event called when ability Kills a Unit. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_a_kam_chainable_a0d148d64e7659c474354cdb53d0ecc06}\label{class_a_kam_chainable_a0d148d64e7659c474354cdb53d0ecc06}} 
+void \mbox{\hyperlink{class_a_kam_chainable_a0d148d64e7659c474354cdb53d0ecc06}{On\+Update}} (float delta\+Time)
+\begin{DoxyCompactList}\small\item\em Blueprint Event called every frame. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_a_kam_chainable_a8c1bbd808e26f4f21a59752d9c0f183a}\label{class_a_kam_chainable_a8c1bbd808e26f4f21a59752d9c0f183a}} 
+void \mbox{\hyperlink{class_a_kam_chainable_a8c1bbd808e26f4f21a59752d9c0f183a}{On\+Destroy}} ()
+\begin{DoxyCompactList}\small\item\em Blueprint Event called when Chain is destroyed. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_a_kam_chainable_adc4dfb408805ede7001fa788cf798516}\label{class_a_kam_chainable_adc4dfb408805ede7001fa788cf798516}} 
+\mbox{\hyperlink{class_u_kam_unit_snapshot}{U\+Kam\+Unit\+Snapshot}} $\ast$ \mbox{\hyperlink{class_a_kam_chainable_adc4dfb408805ede7001fa788cf798516}{caster\+Snapshot}} = nullptr
+\begin{DoxyCompactList}\small\item\em Snapshot of the Chainable caster at cast. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_a_kam_chainable_ac765658171b87fcda0b842193de34ed1}\label{class_a_kam_chainable_ac765658171b87fcda0b842193de34ed1}} 
+U\+Kam\+Unit $\ast$ \mbox{\hyperlink{class_a_kam_chainable_ac765658171b87fcda0b842193de34ed1}{caster\+Unit}} = nullptr
+\begin{DoxyCompactList}\small\item\em Pointer reference to the caster Unit. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Abstract Parent for Chainable Objects. 
+
+This class is inherited by anything that needs to be Chained by Abilities or Status Effects. It contains all of the Chaining functions. 
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+Source/\+Kam\+A\+R\+P\+G/Kam\+Chainable.\+h\item 
+Source/\+Kam\+A\+R\+P\+G/Kam\+Chainable.\+cpp\end{DoxyCompactItemize}

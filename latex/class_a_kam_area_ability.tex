@@ -1,0 +1,74 @@
+\hypertarget{class_a_kam_area_ability}{}\doxysection{A\+Kam\+Area\+Ability Class Reference}
+\label{class_a_kam_area_ability}\index{AKamAreaAbility@{AKamAreaAbility}}
+Inheritance diagram for A\+Kam\+Area\+Ability\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=4.000000cm]{class_a_kam_area_ability}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_a_kam_area_ability_a10beaa347b50c802ef319ff031552ff4}\label{class_a_kam_area_ability_a10beaa347b50c802ef319ff031552ff4}} 
+void {\bfseries Begin\+Play} () override
+\item 
+\mbox{\Hypertarget{class_a_kam_area_ability_ac1c317c2e9f37f68aa544d9b3c35425b}\label{class_a_kam_area_ability_ac1c317c2e9f37f68aa544d9b3c35425b}} 
+void {\bfseries Update} (float Delta\+Time) override
+\item 
+\mbox{\Hypertarget{class_a_kam_area_ability_a734fae7b67fffc8aef06462fed2ccb63}\label{class_a_kam_area_ability_a734fae7b67fffc8aef06462fed2ccb63}} 
+void {\bfseries Override\+Variables} (float new\+Size, float new\+Duration, float new\+Tick\+Rate)
+\item 
+\mbox{\Hypertarget{class_a_kam_area_ability_a89d98c00318c758877240bff202dcf9b}\label{class_a_kam_area_ability_a89d98c00318c758877240bff202dcf9b}} 
+void {\bfseries On\+Sphere\+Begin\+Overlap} (U\+Primitive\+Component $\ast$Overlapped\+Comp, A\+Actor $\ast$Other\+Actor, U\+Primitive\+Component $\ast$Other\+Comp, int32 Other\+Body\+Index, bool b\+From\+Sweep, const F\+Hit\+Result \&Sweep\+Result)
+\item 
+\mbox{\Hypertarget{class_a_kam_area_ability_af21559dce2295fecf6119727450a3de9}\label{class_a_kam_area_ability_af21559dce2295fecf6119727450a3de9}} 
+void {\bfseries On\+Sphere\+End\+Overlap} (U\+Primitive\+Component $\ast$Overlapped\+Comp, A\+Actor $\ast$Other\+Actor, U\+Primitive\+Component $\ast$Other\+Comp, int32 Other\+Body\+Index)
+\end{DoxyCompactItemize}
+\doxysubsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_a_kam_area_ability_aebcd3b764b95b79ce0006d4adf97baa9}\label{class_a_kam_area_ability_aebcd3b764b95b79ce0006d4adf97baa9}} 
+void {\bfseries Initialize} ()
+\item 
+\mbox{\Hypertarget{class_a_kam_area_ability_ac1afe147a402af2600b2293673c183fa}\label{class_a_kam_area_ability_ac1afe147a402af2600b2293673c183fa}} 
+virtual void {\bfseries Hit\+Handler} (U\+Kam\+Unit $\ast$target)
+\item 
+\mbox{\Hypertarget{class_a_kam_area_ability_a68127ced8d6d4ea524f9edb61dbbeac1}\label{class_a_kam_area_ability_a68127ced8d6d4ea524f9edb61dbbeac1}} 
+float \mbox{\hyperlink{class_a_kam_area_ability_a68127ced8d6d4ea524f9edb61dbbeac1}{Get\+Life\+Time}} ()
+\begin{DoxyCompactList}\small\item\em Getter Functions ///. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_a_kam_area_ability_ad455d375cbcb33e10bb6f948f36e5cac}\label{class_a_kam_area_ability_ad455d375cbcb33e10bb6f948f36e5cac}} 
+void \mbox{\hyperlink{class_a_kam_area_ability_ad455d375cbcb33e10bb6f948f36e5cac}{On\+Max\+Duration}} ()
+\begin{DoxyCompactList}\small\item\em Implementable Blueprint Events ///. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_a_kam_area_ability_a539b1bb65b89ba1ba18183fbe33172bf}\label{class_a_kam_area_ability_a539b1bb65b89ba1ba18183fbe33172bf}} 
+void {\bfseries On\+Target\+Enter} (U\+Kam\+Unit $\ast$target)
+\item 
+\mbox{\Hypertarget{class_a_kam_area_ability_af70e82cc46dfd4f5fee4d245e0e0dcc3}\label{class_a_kam_area_ability_af70e82cc46dfd4f5fee4d245e0e0dcc3}} 
+void {\bfseries On\+Target\+Exit} (U\+Kam\+Unit $\ast$target)
+\end{DoxyCompactItemize}
+\doxysubsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_a_kam_area_ability_af22d753e47f9a09590cb4952d1e219d0}\label{class_a_kam_area_ability_af22d753e47f9a09590cb4952d1e219d0}} 
+float \mbox{\hyperlink{class_a_kam_area_ability_af22d753e47f9a09590cb4952d1e219d0}{Life\+Time}} = 0
+\begin{DoxyCompactList}\small\item\em Blueprint Read Only ///. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_a_kam_area_ability_ae049da1ad282a23b7fce4fe894a40ae4}\label{class_a_kam_area_ability_ae049da1ad282a23b7fce4fe894a40ae4}} 
+U\+Sphere\+Component $\ast$ \mbox{\hyperlink{class_a_kam_area_ability_ae049da1ad282a23b7fce4fe894a40ae4}{Sphere\+Collision}} = nullptr
+\begin{DoxyCompactList}\small\item\em Blueprint Read Write ///. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_a_kam_area_ability_ab9f4f518c526d0a5e51daeee3ed0fca9}\label{class_a_kam_area_ability_ab9f4f518c526d0a5e51daeee3ed0fca9}} 
+F\+Vector {\bfseries Start\+Position\+Offset} = F\+Vector\+::\+Zero\+Vector
+\item 
+\mbox{\Hypertarget{class_a_kam_area_ability_a18ed3a829bd350909b39f5cc42a1c93e}\label{class_a_kam_area_ability_a18ed3a829bd350909b39f5cc42a1c93e}} 
+float {\bfseries Duration} = 3.f
+\item 
+\mbox{\Hypertarget{class_a_kam_area_ability_a1d02fb273267f8df89a6af5c25a0d939}\label{class_a_kam_area_ability_a1d02fb273267f8df89a6af5c25a0d939}} 
+float {\bfseries Tick\+Rate} = .\+5f
+\item 
+\mbox{\Hypertarget{class_a_kam_area_ability_aa29e267330ad5d916e0f8a9257001269}\label{class_a_kam_area_ability_aa29e267330ad5d916e0f8a9257001269}} 
+T\+Array$<$ \mbox{\hyperlink{struct_overlapped_unit}{Overlapped\+Unit}} $>$ {\bfseries overlapped\+Units}
+\end{DoxyCompactItemize}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+Source/\+Kam\+A\+R\+P\+G/Kam\+Area\+Ability.\+h\item 
+Source/\+Kam\+A\+R\+P\+G/Kam\+Area\+Ability.\+cpp\end{DoxyCompactItemize}

@@ -1,0 +1,68 @@
+\hypertarget{class_a_kam_character}{}\doxysection{A\+Kam\+Character Class Reference}
+\label{class_a_kam_character}\index{AKamCharacter@{AKamCharacter}}
+Inheritance diagram for A\+Kam\+Character\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_a_kam_character}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_a_kam_character_af13aab7c7bff4bb2b0250cc0ef0c64db}\label{class_a_kam_character_af13aab7c7bff4bb2b0250cc0ef0c64db}} 
+virtual void {\bfseries Tick} (float Delta\+Seconds) override
+\item 
+F\+O\+R\+C\+E\+I\+N\+L\+I\+NE class U\+Camera\+Component $\ast$ \mbox{\hyperlink{class_a_kam_character_a110fa9e088f1626a20e5753a377f8752}{Get\+Top\+Down\+Camera\+Component}} () const
+\item 
+F\+O\+R\+C\+E\+I\+N\+L\+I\+NE class U\+Spring\+Arm\+Component $\ast$ \mbox{\hyperlink{class_a_kam_character_a1216e3376ffcf5cce68ae2391a116f05}{Get\+Camera\+Boom}} () const
+\item 
+F\+O\+R\+C\+E\+I\+N\+L\+I\+NE class U\+Decal\+Component $\ast$ \mbox{\hyperlink{class_a_kam_character_afeb52f6bc1fca79fc9d4f6db7d773833}{Get\+Cursor\+To\+World}} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_a_kam_character_acd8acd9493314f3a43c64f2feba7009c}\label{class_a_kam_character_acd8acd9493314f3a43c64f2feba7009c}} 
+U\+Scene\+Component $\ast$ {\bfseries Ability\+Spawn\+Point}
+\item 
+\mbox{\Hypertarget{class_a_kam_character_aadfd1ab06c896c484a060ab311b915ae}\label{class_a_kam_character_aadfd1ab06c896c484a060ab311b915ae}} 
+T\+Map$<$ F\+String, T\+Subclass\+Of$<$ \mbox{\hyperlink{class_a_kam_base_ability}{A\+Kam\+Base\+Ability}} $>$ $>$ {\bfseries Abilities}
+\end{DoxyCompactItemize}
+\doxysubsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_a_kam_character_aaaad36e77b011f156dfbe1e0fc01df77}\label{class_a_kam_character_aaaad36e77b011f156dfbe1e0fc01df77}} 
+virtual void {\bfseries Begin\+Play} () override
+\end{DoxyCompactItemize}
+\doxysubsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_a_kam_character_a767834b9c94c7177ea5e5d624088baab}\label{class_a_kam_character_a767834b9c94c7177ea5e5d624088baab}} 
+U\+Kam\+Unit $\ast$ {\bfseries unit\+Ref} = nullptr
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_a_kam_character_a1216e3376ffcf5cce68ae2391a116f05}\label{class_a_kam_character_a1216e3376ffcf5cce68ae2391a116f05}} 
+\index{AKamCharacter@{AKamCharacter}!GetCameraBoom@{GetCameraBoom}}
+\index{GetCameraBoom@{GetCameraBoom}!AKamCharacter@{AKamCharacter}}
+\doxysubsubsection{\texorpdfstring{GetCameraBoom()}{GetCameraBoom()}}
+{\footnotesize\ttfamily F\+O\+R\+C\+E\+I\+N\+L\+I\+NE class U\+Spring\+Arm\+Component$\ast$ A\+Kam\+Character\+::\+Get\+Camera\+Boom (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+Returns Camera\+Boom subobject \mbox{\Hypertarget{class_a_kam_character_afeb52f6bc1fca79fc9d4f6db7d773833}\label{class_a_kam_character_afeb52f6bc1fca79fc9d4f6db7d773833}} 
+\index{AKamCharacter@{AKamCharacter}!GetCursorToWorld@{GetCursorToWorld}}
+\index{GetCursorToWorld@{GetCursorToWorld}!AKamCharacter@{AKamCharacter}}
+\doxysubsubsection{\texorpdfstring{GetCursorToWorld()}{GetCursorToWorld()}}
+{\footnotesize\ttfamily F\+O\+R\+C\+E\+I\+N\+L\+I\+NE class U\+Decal\+Component$\ast$ A\+Kam\+Character\+::\+Get\+Cursor\+To\+World (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Returns Cursor\+To\+World subobject \mbox{\Hypertarget{class_a_kam_character_a110fa9e088f1626a20e5753a377f8752}\label{class_a_kam_character_a110fa9e088f1626a20e5753a377f8752}} 
+\index{AKamCharacter@{AKamCharacter}!GetTopDownCameraComponent@{GetTopDownCameraComponent}}
+\index{GetTopDownCameraComponent@{GetTopDownCameraComponent}!AKamCharacter@{AKamCharacter}}
+\doxysubsubsection{\texorpdfstring{GetTopDownCameraComponent()}{GetTopDownCameraComponent()}}
+{\footnotesize\ttfamily F\+O\+R\+C\+E\+I\+N\+L\+I\+NE class U\+Camera\+Component$\ast$ A\+Kam\+Character\+::\+Get\+Top\+Down\+Camera\+Component (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+Returns Top\+Down\+Camera\+Component subobject 
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+Source/\+Kam\+A\+R\+P\+G/Kam\+Character.\+h\item 
+Source/\+Kam\+A\+R\+P\+G/Kam\+Character.\+cpp\end{DoxyCompactItemize}

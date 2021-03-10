@@ -1,0 +1,67 @@
+\hypertarget{class_a_kam_a_r_p_g_player_controller}{}\doxysection{A\+Kam\+A\+R\+P\+G\+Player\+Controller Class Reference}
+\label{class_a_kam_a_r_p_g_player_controller}\index{AKamARPGPlayerController@{AKamARPGPlayerController}}
+Inheritance diagram for A\+Kam\+A\+R\+P\+G\+Player\+Controller\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_a_kam_a_r_p_g_player_controller}
+\end{center}
+\end{figure}
+\doxysubsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_a_kam_a_r_p_g_player_controller_ad9412dff598cbe65344bc38610a0321c}\label{class_a_kam_a_r_p_g_player_controller_ad9412dff598cbe65344bc38610a0321c}} 
+virtual void {\bfseries Player\+Tick} (float Delta\+Time) override
+\item 
+\mbox{\Hypertarget{class_a_kam_a_r_p_g_player_controller_a84aa41eb21e87b2cd8b560ef2a25c7ec}\label{class_a_kam_a_r_p_g_player_controller_a84aa41eb21e87b2cd8b560ef2a25c7ec}} 
+virtual void {\bfseries Setup\+Input\+Component} () override
+\item 
+void \mbox{\hyperlink{class_a_kam_a_r_p_g_player_controller_a09920f8d864101fb620944007d46ddc7}{Move\+To\+Mouse\+Cursor}} ()
+\item 
+void \mbox{\hyperlink{class_a_kam_a_r_p_g_player_controller_a662134c20856b022848cc9028a8a8a95}{Set\+New\+Move\+Destination}} (const F\+Vector Dest\+Location)
+\item 
+void \mbox{\hyperlink{class_a_kam_a_r_p_g_player_controller_ac15e5a86dd3c42551faadff3c3db8e55}{On\+Set\+Destination\+Pressed}} ()
+\item 
+\mbox{\Hypertarget{class_a_kam_a_r_p_g_player_controller_a669bebbb762c430beceed26794fa8be6}\label{class_a_kam_a_r_p_g_player_controller_a669bebbb762c430beceed26794fa8be6}} 
+void {\bfseries On\+Set\+Destination\+Released} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+uint32 \mbox{\hyperlink{class_a_kam_a_r_p_g_player_controller_ac092207bd4bcb4f3450a5e03faa50178}{b\+Move\+To\+Mouse\+Cursor}}\+: 1
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_a_kam_a_r_p_g_player_controller_a09920f8d864101fb620944007d46ddc7}\label{class_a_kam_a_r_p_g_player_controller_a09920f8d864101fb620944007d46ddc7}} 
+\index{AKamARPGPlayerController@{AKamARPGPlayerController}!MoveToMouseCursor@{MoveToMouseCursor}}
+\index{MoveToMouseCursor@{MoveToMouseCursor}!AKamARPGPlayerController@{AKamARPGPlayerController}}
+\doxysubsubsection{\texorpdfstring{MoveToMouseCursor()}{MoveToMouseCursor()}}
+{\footnotesize\ttfamily void A\+Kam\+A\+R\+P\+G\+Player\+Controller\+::\+Move\+To\+Mouse\+Cursor (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+Navigate player to the current mouse cursor location. \mbox{\Hypertarget{class_a_kam_a_r_p_g_player_controller_ac15e5a86dd3c42551faadff3c3db8e55}\label{class_a_kam_a_r_p_g_player_controller_ac15e5a86dd3c42551faadff3c3db8e55}} 
+\index{AKamARPGPlayerController@{AKamARPGPlayerController}!OnSetDestinationPressed@{OnSetDestinationPressed}}
+\index{OnSetDestinationPressed@{OnSetDestinationPressed}!AKamARPGPlayerController@{AKamARPGPlayerController}}
+\doxysubsubsection{\texorpdfstring{OnSetDestinationPressed()}{OnSetDestinationPressed()}}
+{\footnotesize\ttfamily void A\+Kam\+A\+R\+P\+G\+Player\+Controller\+::\+On\+Set\+Destination\+Pressed (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+Input handlers for Set\+Destination action. \mbox{\Hypertarget{class_a_kam_a_r_p_g_player_controller_a662134c20856b022848cc9028a8a8a95}\label{class_a_kam_a_r_p_g_player_controller_a662134c20856b022848cc9028a8a8a95}} 
+\index{AKamARPGPlayerController@{AKamARPGPlayerController}!SetNewMoveDestination@{SetNewMoveDestination}}
+\index{SetNewMoveDestination@{SetNewMoveDestination}!AKamARPGPlayerController@{AKamARPGPlayerController}}
+\doxysubsubsection{\texorpdfstring{SetNewMoveDestination()}{SetNewMoveDestination()}}
+{\footnotesize\ttfamily void A\+Kam\+A\+R\+P\+G\+Player\+Controller\+::\+Set\+New\+Move\+Destination (\begin{DoxyParamCaption}\item[{const F\+Vector}]{Dest\+Location }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+Navigate player to the given world location. 
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{class_a_kam_a_r_p_g_player_controller_ac092207bd4bcb4f3450a5e03faa50178}\label{class_a_kam_a_r_p_g_player_controller_ac092207bd4bcb4f3450a5e03faa50178}} 
+\index{AKamARPGPlayerController@{AKamARPGPlayerController}!bMoveToMouseCursor@{bMoveToMouseCursor}}
+\index{bMoveToMouseCursor@{bMoveToMouseCursor}!AKamARPGPlayerController@{AKamARPGPlayerController}}
+\doxysubsubsection{\texorpdfstring{bMoveToMouseCursor}{bMoveToMouseCursor}}
+{\footnotesize\ttfamily uint32 A\+Kam\+A\+R\+P\+G\+Player\+Controller\+::b\+Move\+To\+Mouse\+Cursor\hspace{0.3cm}{\ttfamily [protected]}}
+
+True if the controlled character should navigate to the mouse cursor. 
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+Source/\+Kam\+A\+R\+P\+G/Kam\+A\+R\+P\+G\+Player\+Controller.\+h\item 
+Source/\+Kam\+A\+R\+P\+G/Kam\+A\+R\+P\+G\+Player\+Controller.\+cpp\end{DoxyCompactItemize}

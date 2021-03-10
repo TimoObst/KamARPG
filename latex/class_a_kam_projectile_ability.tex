@@ -1,0 +1,74 @@
+\hypertarget{class_a_kam_projectile_ability}{}\doxysection{A\+Kam\+Projectile\+Ability Class Reference}
+\label{class_a_kam_projectile_ability}\index{AKamProjectileAbility@{AKamProjectileAbility}}
+Inheritance diagram for A\+Kam\+Projectile\+Ability\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=4.000000cm]{class_a_kam_projectile_ability}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_a_kam_projectile_ability_a05792cfc95bd3f40a445a110f0358601}\label{class_a_kam_projectile_ability_a05792cfc95bd3f40a445a110f0358601}} 
+virtual void {\bfseries Begin\+Play} () override
+\item 
+\mbox{\Hypertarget{class_a_kam_projectile_ability_ae60bdf21d3261166a87fb3776e046f01}\label{class_a_kam_projectile_ability_ae60bdf21d3261166a87fb3776e046f01}} 
+virtual void {\bfseries Update} (float Delta\+Time) override
+\item 
+\mbox{\Hypertarget{class_a_kam_projectile_ability_a11ad89b55566d602a8c72f8cd035cf0e}\label{class_a_kam_projectile_ability_a11ad89b55566d602a8c72f8cd035cf0e}} 
+void {\bfseries Overrride\+Variables} (float new\+Size, float new\+Angle, float new\+Speed, float new\+Max\+Distance)
+\item 
+\mbox{\Hypertarget{class_a_kam_projectile_ability_ade1651b4363000dc10c0db252193e327}\label{class_a_kam_projectile_ability_ade1651b4363000dc10c0db252193e327}} 
+void {\bfseries On\+Sphere\+Begin\+Overlap} (U\+Primitive\+Component $\ast$Overlapped\+Comp, A\+Actor $\ast$Other\+Actor, U\+Primitive\+Component $\ast$Other\+Comp, int32 Other\+Body\+Index, bool b\+From\+Sweep, const F\+Hit\+Result \&Sweep\+Result)
+\end{DoxyCompactItemize}
+\doxysubsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_a_kam_projectile_ability_a84e0fc689f62d1f0666a9a956c13e1b8}\label{class_a_kam_projectile_ability_a84e0fc689f62d1f0666a9a956c13e1b8}} 
+virtual void {\bfseries Hit\+Handler} (U\+Kam\+Unit $\ast$target) override
+\item 
+\mbox{\Hypertarget{class_a_kam_projectile_ability_a607d295f9d4ecbb6102d23099929eaca}\label{class_a_kam_projectile_ability_a607d295f9d4ecbb6102d23099929eaca}} 
+void {\bfseries Initialize} ()
+\item 
+\mbox{\Hypertarget{class_a_kam_projectile_ability_a94d1bfebf36e0cc37926ae7bb0c41db6}\label{class_a_kam_projectile_ability_a94d1bfebf36e0cc37926ae7bb0c41db6}} 
+void \mbox{\hyperlink{class_a_kam_projectile_ability_a94d1bfebf36e0cc37926ae7bb0c41db6}{On\+Max\+Distance}} ()
+\begin{DoxyCompactList}\small\item\em Blueprint Implementable Events ///. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_a_kam_projectile_ability_a15550e6715059c3cb0ec097eb27302ec}\label{class_a_kam_projectile_ability_a15550e6715059c3cb0ec097eb27302ec}} 
+void \mbox{\hyperlink{class_a_kam_projectile_ability_a15550e6715059c3cb0ec097eb27302ec}{Set\+Speed}} (float new\+Speed)
+\begin{DoxyCompactList}\small\item\em Blueprint Callable Functions ///. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_a_kam_projectile_ability_af096954e33277b6256eb78c67d532d69}\label{class_a_kam_projectile_ability_af096954e33277b6256eb78c67d532d69}} 
+F\+Vector {\bfseries start\+Position} = F\+Vector\+::\+Zero\+Vector
+\item 
+\mbox{\Hypertarget{class_a_kam_projectile_ability_a85081f1436a7fe10a5dc50beee934085}\label{class_a_kam_projectile_ability_a85081f1436a7fe10a5dc50beee934085}} 
+float \mbox{\hyperlink{class_a_kam_projectile_ability_a85081f1436a7fe10a5dc50beee934085}{Distance}} = 0
+\begin{DoxyCompactList}\small\item\em Blueprint Read Only ///. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_a_kam_projectile_ability_afb04c649c0ea2761cb018118e80a2db4}\label{class_a_kam_projectile_ability_afb04c649c0ea2761cb018118e80a2db4}} 
+U\+Projectile\+Movement\+Component $\ast$ {\bfseries Projectile\+Movement} = nullptr
+\item 
+\mbox{\Hypertarget{class_a_kam_projectile_ability_a3724f83d23362fb5a18412d2f923d49c}\label{class_a_kam_projectile_ability_a3724f83d23362fb5a18412d2f923d49c}} 
+U\+Sphere\+Component $\ast$ \mbox{\hyperlink{class_a_kam_projectile_ability_a3724f83d23362fb5a18412d2f923d49c}{Sphere\+Collision}} = nullptr
+\begin{DoxyCompactList}\small\item\em Blueprint Read Write ///. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_a_kam_projectile_ability_ad533a69d0e2358457f3ffc31ad259270}\label{class_a_kam_projectile_ability_ad533a69d0e2358457f3ffc31ad259270}} 
+float {\bfseries Angle} = 0
+\item 
+\mbox{\Hypertarget{class_a_kam_projectile_ability_a489f853a56b45abee6b4ec3d21375eb3}\label{class_a_kam_projectile_ability_a489f853a56b45abee6b4ec3d21375eb3}} 
+float {\bfseries Speed} = 600
+\item 
+\mbox{\Hypertarget{class_a_kam_projectile_ability_ae5d24fc1811da4a56a186158da55d190}\label{class_a_kam_projectile_ability_ae5d24fc1811da4a56a186158da55d190}} 
+float {\bfseries Max\+Distance} = 1000
+\item 
+\mbox{\Hypertarget{class_a_kam_projectile_ability_a203c7aad21431bf55f7bf9caad57bcf9}\label{class_a_kam_projectile_ability_a203c7aad21431bf55f7bf9caad57bcf9}} 
+F\+Vector {\bfseries Start\+Position\+Offset} = F\+Vector(20, 0, 0)
+\item 
+\mbox{\Hypertarget{class_a_kam_projectile_ability_aabab5b65f2f08e2409b4c4b455064c7f}\label{class_a_kam_projectile_ability_aabab5b65f2f08e2409b4c4b455064c7f}} 
+bool {\bfseries Destroy\+On\+Hit} = true
+\end{DoxyCompactItemize}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+Source/\+Kam\+A\+R\+P\+G/Kam\+Projectile\+Ability.\+h\item 
+Source/\+Kam\+A\+R\+P\+G/Kam\+Projectile\+Ability.\+cpp\end{DoxyCompactItemize}
