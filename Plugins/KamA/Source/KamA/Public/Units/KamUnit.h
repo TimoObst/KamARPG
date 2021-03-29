@@ -19,7 +19,6 @@ DECLARE_DYNAMIC_MULTICAST_DELEGATE_ThreeParams(FDamageTakenSignature, float, dam
 	Component that handles interaction with Abilties and Status Effects.
 	Manages Health and Attributes of Unit.
 */
-
 UCLASS(Blueprintable, BlueprintType, ClassGroup = (Custom), meta = (BlueprintSpawnableComponent))
 class KAMA_API UKamUnit : public UActorComponent
 {
