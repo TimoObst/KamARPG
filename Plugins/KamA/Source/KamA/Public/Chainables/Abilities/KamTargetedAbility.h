@@ -6,7 +6,7 @@
 #include "Chainables/Abilities/KamBaseAbility.h"
 #include "KamTargetedAbility.generated.h"
 
-UCLASS()
+UCLASS(Abstract)
 class KAMA_API AKamTargetedAbility : public AKamBaseAbility
 {
 	GENERATED_BODY()
