@@ -1,0 +1,24 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0",
+	"FriendlyName": "KamA",
+	"Description": "Kam Ability System",
+	"Category": "Other",
+	"CreatedBy": "Timo Obst",
+	"CreatedByURL": "",
+	"DocsURL": "",
+	"MarketplaceURL": "",
+	"SupportURL": "",
+	"CanContainContent": true,
+	"IsBetaVersion": false,
+	"IsExperimentalVersion": false,
+	"Installed": false,
+	"Modules": [
+		{
+			"Name": "KamA",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		}
+	]
+}

@@ -2,7 +2,7 @@
 
 #pragma once
 
-#include "KamBaseAbility.h"
+#include "Chainables/Abilities/KamBaseAbility.h"
 
 #include "InputCoreTypes.h"
 #include "CoreMinimal.h"
